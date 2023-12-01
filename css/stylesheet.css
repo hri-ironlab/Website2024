@@ -11,12 +11,12 @@ form {
     border-radius: 8px;
     grid-column: 1/2;
     grid-row: 3/4
-  }
+}
 
-  input[type="text"],
-  input[type="password"],
-  input[type="email"],
-  textarea,select {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,select {
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid transparent;
     font-size: 16px;
@@ -31,4 +31,26 @@ form {
     margin-bottom: 30px;
     caret-color: purple;
     transition: all 350ms;
+}
+
+.gradient-button {
+    background-image: linear-gradient(
+    -30deg,
+    lightblue 10% 50%,
+    cadetblue 50% 100%
+    );
+    background-size: 200%;
+    border-radius: 0.5rem;
+    height: 100px;
+    width: 450px;
+    background-position: 0%;
+    transition: background-position 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+      
+.gradient-button:hover {
+    background-position: 50%;
   }
