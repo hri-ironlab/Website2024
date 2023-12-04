@@ -3,6 +3,16 @@ body {
 
 }
 
+.carousel-item {
+    height: 500px;
+ }
+
+.carousel-indicators li{ 
+   height: 12px !important;
+   width: 3px !important;
+     }
+
+ 
 form {
     max-width: 500px;
     margin: 10px auto;
