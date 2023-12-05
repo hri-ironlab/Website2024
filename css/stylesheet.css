@@ -52,7 +52,7 @@ textarea,select {
     background-size: 200%;
     border-radius: 0.5rem;
     height: 100px;
-    width: 450px;
+    width: 320px;
     background-position: 0%;
     transition: background-position 1s ease;
     display: flex;
