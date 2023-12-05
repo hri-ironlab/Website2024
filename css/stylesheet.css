@@ -3,7 +3,7 @@ body {
 
 }
 
-/*
+
 .carousel-item {
     max-height: auto;
  }
@@ -13,7 +13,6 @@ body {
     height: 12px !important;
     width: 3px !important;
 }
-*/ 
 
 form {
     max-width: 500px;
@@ -65,3 +64,10 @@ textarea,select {
 .gradient-button:hover {
     background-position: 50%;
   }
+
+@media only screen and (min-width: 768px) {
+    .carousel-item {
+        max-width: 100%;
+        height: auto;
+    }
+}
