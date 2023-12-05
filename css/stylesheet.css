@@ -71,3 +71,39 @@ textarea,select {
         height: auto;
     }
 }
+
+/* CSS HEX */
+--black: #000000ff;
+--baby-powder: #fffffcff;
+--khaki: #beb7a4ff;
+--orange-wheel: #ff7f11ff;
+--red: #ff1b1cff;
+
+/* CSS HSL */
+--black: hsla(0, 0%, 0%, 1);
+--baby-powder: hsla(60, 100%, 99%, 1);
+--khaki: hsla(44, 17%, 69%, 1);
+--orange-wheel: hsla(28, 100%, 53%, 1);
+--red: hsla(360, 100%, 55%, 1);
+
+/* SCSS HEX */
+$black: #000000ff;
+$baby-powder: #fffffcff;
+$khaki: #beb7a4ff;
+$orange-wheel: #ff7f11ff;
+$red: #ff1b1cff;
+
+/* SCSS HSL */
+$black: hsla(0, 0%, 0%, 1);
+$baby-powder: hsla(60, 100%, 99%, 1);
+$khaki: hsla(44, 17%, 69%, 1);
+$orange-wheel: hsla(28, 100%, 53%, 1);
+$red: hsla(360, 100%, 55%, 1);
+
+/* SCSS RGB */
+$black: rgba(0, 0, 0, 1);
+$baby-powder: rgba(255, 255, 252, 1);
+$khaki: rgba(190, 183, 164, 1);
+$orange-wheel: rgba(255, 127, 17, 1);
+$red: rgba(255, 27, 28, 1);
+
