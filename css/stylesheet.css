@@ -3,11 +3,11 @@ body {
 
 }
 
-
+/*
 .carousel-item {
     max-height: auto;
  }
-
+*/
 
 .carousel-indicators li{ 
     height: 12px !important;
