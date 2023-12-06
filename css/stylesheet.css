@@ -86,9 +86,33 @@ textarea,select {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .sitterson {
+        height: 50%;
+    }
+}
+
+.sitterson {
+    border-radius: 20px !important;
+}
+
 .btn-primary {
     background-color: #0081afff !important;
 }
+
+.bg-primary {
+    background-color: #0081afff !important;
+}
+
+.bg-light {
+    background-color: #ead2acff !important;
+}
+
+.bg-secondary {
+    background-color: #eaba6bff !important;
+}
+
+
 
 footer{
     background-color: #;
