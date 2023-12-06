@@ -85,7 +85,7 @@ textarea,select {
     }
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary {
     background-color: #0081afff !important;
 }
 
