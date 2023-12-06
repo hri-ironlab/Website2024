@@ -11,19 +11,10 @@ h2{
     size: 28px;
 }
 
-/*
-.carousel-item {
-    max-height: auto;
- }
-*/
-
 .carousel-indicators li{ 
     height: 12px !important;
     width: 3px !important;
 }
-
-
-
 
 form {
     max-width: 500px;
@@ -85,7 +76,7 @@ textarea,select {
     }
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary {
     background-color: #0081afff !important;
 }
 
