@@ -76,9 +76,7 @@ textarea,select {
       
 .gradient-button:hover {
     background-position: 50%;
-  }
-
-
+}
 
 @media only screen and (min-width: 768px) {
     .carousel-item {
@@ -94,6 +92,7 @@ textarea,select {
 footer{
     background-color: #2dc7ffff;
 }
+
 /* CSS HEX */
 --cerulean: #0081afff;
 --picton-blue: #00abe7ff;
