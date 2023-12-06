@@ -21,7 +21,11 @@ h2{
     align-items: flex-end;
 }
 
-
+.col-sm-5 img {
+    width: 60%;
+    height: auto;
+    margin-left: 20px;
+}
 
 form {
     max-width: 500px;
