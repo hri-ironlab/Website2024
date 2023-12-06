@@ -3,11 +3,13 @@ body {
 
 }
 
-/*
-.carousel-item {
-    max-height: auto;
- }
-*/
+h1 {
+    size: 39px;
+}
+
+h2{
+    size: 28px;
+}
 
 .carousel-indicators li{ 
     height: 12px !important;
@@ -19,12 +21,7 @@ body {
     align-items: flex-end;
 }
 
-.col-sm-5 img {
-    width: 60%;
-    height: auto;
-    margin-left: 100px;
-    padding: 2px;
-}
+
 
 form {
     max-width: 500px;
@@ -77,6 +74,8 @@ textarea,select {
     background-position: 50%;
   }
 
+
+
 @media only screen and (min-width: 768px) {
     .carousel-item {
         max-width: 100%;
@@ -84,38 +83,15 @@ textarea,select {
     }
 }
 
+.btn-primary {
+    background-color: #0081afff !important;
+}
+
 /* CSS HEX */
---black: #000000ff;
---baby-powder: #fffffcff;
---khaki: #beb7a4ff;
---orange-wheel: #ff7f11ff;
---red: #ff1b1cff;
+--cerulean: #0081afff;
+--picton-blue: #00abe7ff;
+--vivid-sky-blue: #2dc7ffff;
+--wheat: #ead2acff;
+--earth-yellow: #eaba6bff;
 
-/* CSS HSL */
---black: hsla(0, 0%, 0%, 1);
---baby-powder: hsla(60, 100%, 99%, 1);
---khaki: hsla(44, 17%, 69%, 1);
---orange-wheel: hsla(28, 100%, 53%, 1);
---red: hsla(360, 100%, 55%, 1);
-
-/* SCSS HEX */
-$black: #000000ff;
-$baby-powder: #fffffcff;
-$khaki: #beb7a4ff;
-$orange-wheel: #ff7f11ff;
-$red: #ff1b1cff;
-
-/* SCSS HSL */
-$black: hsla(0, 0%, 0%, 1);
-$baby-powder: hsla(60, 100%, 99%, 1);
-$khaki: hsla(44, 17%, 69%, 1);
-$orange-wheel: hsla(28, 100%, 53%, 1);
-$red: hsla(360, 100%, 55%, 1);
-
-/* SCSS RGB */
-$black: rgba(0, 0, 0, 1);
-$baby-powder: rgba(255, 255, 252, 1);
-$khaki: rgba(190, 183, 164, 1);
-$orange-wheel: rgba(255, 127, 17, 1);
-$red: rgba(255, 27, 28, 1);
 
