@@ -3,6 +3,14 @@ body {
 
 }
 
+h1 {
+    size: 39px;
+}
+
+h2{
+    size: 28px;
+}
+
 /*
 .carousel-item {
     max-height: auto;
@@ -72,6 +80,8 @@ textarea,select {
     background-position: 50%;
   }
 
+
+
 @media only screen and (min-width: 768px) {
     .carousel-item {
         max-width: 100%;
@@ -80,14 +90,14 @@ textarea,select {
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #ff1b1cff !important;
+    background-color: #0081afff !important;
 }
 
 /* CSS HEX */
---black: #000000ff;
---baby-powder: #fffffcff;
---khaki: #beb7a4ff;
---orange-wheel: #ff7f11ff;
---red: #ff1b1cff;
+--cerulean: #0081afff;
+--picton-blue: #00abe7ff;
+--vivid-sky-blue: #2dc7ffff;
+--wheat: #ead2acff;
+--earth-yellow: #eaba6bff;
 
 
