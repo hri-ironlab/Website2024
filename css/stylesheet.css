@@ -11,19 +11,10 @@ h2{
     size: 28px;
 }
 
-/*
-.carousel-item {
-    max-height: auto;
- }
-*/
-
 .carousel-indicators li{ 
     height: 12px !important;
     width: 3px !important;
 }
-
-
-
 
 form {
     max-width: 500px;
