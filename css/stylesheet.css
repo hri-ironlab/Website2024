@@ -27,6 +27,9 @@ h2{
     margin-left: 20px;
 }
 
+.card-body{
+    background: #ead2acff;
+}
 form {
     max-width: 500px;
     margin: 10px auto;
@@ -76,9 +79,7 @@ textarea,select {
       
 .gradient-button:hover {
     background-position: 50%;
-  }
-
-
+}
 
 @media only screen and (min-width: 768px) {
     .carousel-item {
@@ -92,8 +93,9 @@ textarea,select {
 }
 
 footer{
-    background-color: #2dc7ffff;
+    background-color: #;
 }
+
 /* CSS HEX */
 --cerulean: #0081afff;
 --picton-blue: #00abe7ff;
