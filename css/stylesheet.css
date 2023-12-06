@@ -91,6 +91,9 @@ textarea,select {
     background-color: #0081afff !important;
 }
 
+footer{
+    background-color: #0081afff;
+}
 /* CSS HEX */
 --cerulean: #0081afff;
 --picton-blue: #00abe7ff;
