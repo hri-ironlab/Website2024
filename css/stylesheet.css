@@ -16,6 +16,13 @@ h2{
     width: 3px !important;
 }
 
+.row-building {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
 form {
     max-width: 500px;
     margin: 10px auto;
