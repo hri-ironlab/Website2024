@@ -69,7 +69,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #2dc7ffff;
+    background-color: #ead2acff;
     color: white;
     transition: all 350ms ease-in-out;
 }
@@ -84,10 +84,6 @@ button:focus {
 @media only screen and (max-width: 768px) {
     .sitterson {
         height: 50%;
-    }
-
-    .submit-button {
-        width: 500px
     }
     
 }
@@ -113,11 +109,13 @@ footer{
     background-color: #0081afff;
 }
 
-/* CSS HEX */
+/* 
+CSS HEX COLOR PALETTE
 --cerulean: #0081afff;
 --picton-blue: #00abe7ff;
 --vivid-sky-blue: #2dc7ffff;
 --wheat: #ead2acff;
 --earth-yellow: #eaba6bff;
+*/
 
 
