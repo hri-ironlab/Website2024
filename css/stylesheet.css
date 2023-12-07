@@ -28,6 +28,10 @@ h2{
     background: #ead2acff;
 }
 
+.text-muted {
+    color: darkslategrey !important;
+    font-size: 13px;
+}
 
 form {
     height: 100%;
