@@ -69,7 +69,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #0081afff;
+    background-color: #2dc7ffff;
     color: white;
     transition: all 350ms ease-in-out;
 }
