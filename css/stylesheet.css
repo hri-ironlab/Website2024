@@ -58,30 +58,35 @@ textarea,select {
 }
 
 .submit-button {
-    background-size: 200%;
     border-radius: 0.5rem;
     height: 100px;
-    width: 
+    width: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
     .carousel-item {
         max-width: 100%;
         height: auto;
     }
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (width: 768px) {
     .sitterson {
         height: 50%;
     }
 
+    .submit-button {
+        width: 500px
+    }
     
 }
 
+    
+}
 .sitterson {
     border-radius: 20px !important;
 }
