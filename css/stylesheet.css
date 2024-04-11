@@ -1,5 +1,5 @@
 body {
-    font-family: 'Baskervville', serif !important;
+    font-family: 'Geneva', serif !important;
 
 }
 
@@ -29,7 +29,7 @@ h2{
 }
 
 .card-body{
-    background: #ead2acff;
+    background: #4B9CD3;
 }
 
 .text-muted {
@@ -41,7 +41,7 @@ form {
     height: 100%;
     margin: 5px;
     padding: 20px;
-    color: white;
+    color: #FFFFFF;
 }
 
 input[type="text"],
@@ -71,13 +71,13 @@ button {
     border: none;
     width: 100%;
     margin-bottom: 10px;
-    color: #074F69;
-    background-color: #f5f5f5;
+    color: #007FAE;
+    background-color: #ffffff;
 }
 
 button:hover,
 button:focus {
-    background-color: #ead2acff;
+    background-color: #F4E8DD;
     color: black;
     transition: all 350ms ease-in-out;
 }
